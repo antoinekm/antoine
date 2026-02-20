@@ -13,7 +13,7 @@
     "lint:test": "pnpm build && node --experimental-vm-modules test-lint.js"
   },
   "dependencies": {
-    "@eslint/js": "^9.0.0",
+    "@eslint/js": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^8.26.0",
     "@typescript-eslint/parser": "^7.0.0",
     "eslint-config-prettier": "^10.0.0",
@@ -31,7 +31,7 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.0",
     "antoine-tsconfig": "workspace:*",
-    "eslint": "^9.0.0",
+    "eslint": "^10.0.0",
     "jest": "^30.0.0",
     "prettier": "^3.0.0",
     "ts-jest": "^29.1.1",
