@@ -25,10 +25,10 @@ importers:
     devDependencies:
       '@types/react':
         specifier: ^19.0.0
-        version: 19.3.0
+        version: 19.3.3
       '@types/react-dom':
         specifier: ^19.0.0
-        version: 19.3.0(@types/react@19.3.0)
+        version: 19.3.0(@types/react@19.3.3)
       antoine-tsconfig:
         specifier: workspace:*
         version: link:../antoine-tsconfig
@@ -1046,8 +1046,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.3.0
 
-  '@types/react@19.3.0':
-    resolution: {integrity: sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==}
+  '@types/react@19.3.3':
+    resolution: {integrity: sha512-K8uWpJc4teiuOPdiP1umjeA9rGMgVPiXuoL66fcS1QlwBT1WMqY8PORmub9FadopIs+RCW6siYEs7Lpq+vDlog==}
 
   '@types/stack-utils@2.0.3':
     resolution: {integrity: sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw==}
@@ -1517,8 +1517,8 @@ packages:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
-  csstype@3.2.3:
-    resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
+  csstype@3.2.4:
+    resolution: {integrity: sha512-PoKaoPzQapnEoqUSnHx1u6W6ku8CVEgKsnpmmzU3m1nwkidpPBQ8V/Zq2+bWNrsOKoKLwTGdbx6xF7BXP1zLVQ==}
 
   data-view-buffer@1.0.2:
     resolution: {integrity: sha512-EmKO5V3OLXh1rtK2wgXRansaK1/mtVdTUEiEI0W8RkvgT05kfxaH29PliLnpLP73yYO6142Q72QNa8Wx/A5CqQ==}
@@ -4105,13 +4105,13 @@ snapshots:
     dependencies:
       undici-types: 8.9.0
 
-  '@types/react-dom@19.3.0(@types/react@19.3.0)':
+  '@types/react-dom@19.3.0(@types/react@19.3.3)':
     dependencies:
-      '@types/react': 19.3.0
+      '@types/react': 19.3.3
 
-  '@types/react@19.3.0':
+  '@types/react@19.3.3':
     dependencies:
-      csstype: 3.2.3
+      csstype: 3.2.4
 
   '@types/stack-utils@2.0.3': {}
 
@@ -4601,7 +4601,7 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  csstype@3.2.3: {}
+  csstype@3.2.4: {}
 
   data-view-buffer@1.0.2:
     dependencies:
